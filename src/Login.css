@@ -1,0 +1,50 @@
+.login{
+    display: grid;
+    place-items:center;
+    height:100vh;
+    background-color:white;
+
+}
+
+.facebooklogoo{
+    width:600px;
+   
+}
+
+
+
+.login > div >img{
+    object-fit: contain;
+    height:250px;
+    place-items: center;
+
+}
+
+.login > div  {
+
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-weight:700;
+    font-size: 30px;
+    color:rgb(18, 120, 236);
+    text-align:center;
+     
+}
+
+.login > button{
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color:rgb(18, 120, 236);
+    border:none
+
+}
+
+.login > button:hover{
+    background-color: white;
+    color:rgb(18, 120, 236);
+
+}
