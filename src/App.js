@@ -8,7 +8,7 @@ import Login from "./Login";
 import {useStateValue} from "./StateProvider";
 
 
-
+// Root main
 function App() {
   const [{user},dispatch]=useStateValue();
   return ( 
